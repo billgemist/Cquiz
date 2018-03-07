@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Cquiz</string>
+    <string name="easy_button">Easy</string>
+    <string name="medium_button">Medium</string>
+    <string name="hard_button">Hard</string>
+    <string name="answer_1_button">ONE</string>
+    <string name="answer_2_button">TWO</string>
+    <string name="answer_3_button">THREE</string>
+    <string name="answer_4_button">FOUR</string>
+    <string name="help_button">HELP ME!</string>
+    <string name="welcome_text">Welcome to the C-quiz</string>
+    <string name="start_text">Choose difficulty level and start the quiz!</string>
+    <string name="action">action</string>
+    <string name="about_option">About</string>
+    <string name="about_us_title">About Us</string>
+    <string name="myEmail">Email</string>
+    <string name="profEmail">Email</string>
+    <string name="profSite">cna.uop.gr/~ntsel/</string>
+    <string name="questionTest">
+        public void function(){\n
+        \t \t int c = 0; \n
+        \t \t return c; \n
+        }
+    </string>
+
+</resources>

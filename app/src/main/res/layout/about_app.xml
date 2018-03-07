@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background = "@drawable/wkk"
+                android:gravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true">
+
+            <TextView
+                android:id="@+id/about_text_view"
+                android:layout_width="309dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bordermine"
+                android:maxLines="10"
+                android:padding="24dp"
+                android:scrollbars="vertical"
+                android:text="H εφαρμογή είναι η πτυχιακή εργασία του φοιτητή Γεμιστού Βασίλειου \n \n Επιβλέπων καθηγητής κ.Τσελίκας Νικόλαος"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:verticalScrollbarPosition="defaultPosition"/>
+
+            <Button
+                android:id="@+id/mine_mail_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/myEmail"
+
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+<!--
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal|top">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Supervisor"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_marginTop="40dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nikolaos Tselikas"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profSite"
+            android:autoLink="web"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:id="@+id/prof_site_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Website"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:background="@color/blue"/>
+        <Button
+            android:id="@+id/prof_mail_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profEmail"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:background="@color/blue"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal|center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Student"
+                android:textStyle="bold"
+                android:textSize="25sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bill Gemistos"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+            <Button
+                android:id="@+id/mine_mail_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/myEmail"
+
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"
+                android:background="@color/blue"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+-->

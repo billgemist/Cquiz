@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_centerInParent="true"
+              android:scaleType="centerCrop"
+              android:background = "@drawable/crop_1">
+
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical"
+                  android:gravity="center"
+                  android:weightSum="1"
+                  android:layout_alignParentTop="true"
+                  android:layout_alignParentLeft="true"
+                  android:layout_alignParentStart="true">
+        <TextView
+            android:id="@+id/asking_text"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:textColor="@color/white"
+            android:text="(ex: what will be printed on the screen?)"/>
+        <TextView
+            android:id="@+id/C_text_view"
+            android:scrollbars="vertical"
+            android:verticalScrollbarPosition="defaultPosition"
+            android:layout_width="347dp"
+            android:layout_height="200dp"
+            android:maxLines = "10"
+            android:padding="24dp"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:background="@drawable/bordermine"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="0.1">
+            <Button
+                android:id="@+id/answer_1_button"
+                android:layout_width="150dp"
+                android:layout_height="75dp"
+                android:layout_marginRight="15dp"
+                android:textAllCaps="false"
+                android:background="@drawable/buttonshape"
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                android:text="@string/answer_1_button"/>
+            <Button
+                android:id="@+id/answer_2_button"
+                android:layout_width="150dp"
+                android:layout_height="75dp"
+                android:textAllCaps="false"
+                android:background="@drawable/buttonshape"
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                android:text="@string/answer_2_button"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1">
+            <Button
+                android:id="@+id/answer_3_button"
+                android:layout_width="150dp"
+                android:layout_height="75dp"
+                android:layout_marginRight="15dp"
+                android:textAllCaps="false"
+                android:background="@drawable/buttonshape"
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                android:text="@string/answer_3_button"/>
+            <Button
+                android:id="@+id/answer_4_button"
+                android:layout_width="150dp"
+                android:layout_height="75dp"
+                android:textAllCaps="false"
+                android:background="@drawable/buttonshape"
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                android:text="@string/answer_4_button"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp">
+            <TextView
+                android:id="@+id/level_info"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:text="here will be the level"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+
+<!-- without fancy buttons
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+                android:background = "@drawable/blue6"
+    >
+
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical"
+                  android:gravity="center"
+        >
+        <TextView
+            android:id="@+id/asking_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/black"
+            android:text="(ex: what will be printed on the screen?)"/>
+        <TextView
+            android:id="@+id/C_text_view"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:padding="24dp"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:text=""
+            android:background="@drawable/bordermine"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="8dp">
+
+            <Button
+                android:id="@+id/answer_1_button"
+                android:layout_width="150dp"
+                android:layout_height="70dp"
+                android:layout_marginRight="10dp"
+                android:textAllCaps="false"
+                android:text="@string/answer_1_button"/>
+            <Button
+                android:id="@+id/answer_2_button"
+                android:layout_width="150dp"
+                android:layout_height="70dp"
+                android:textAllCaps="false"
+                android:text="@string/answer_2_button"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/answer_3_button"
+                android:layout_width="150dp"
+                android:layout_height="70dp"
+                android:layout_marginRight="10dp"
+                android:textAllCaps="false"
+                android:text="@string/answer_3_button"/>
+            <Button
+                android:id="@+id/answer_4_button"
+                android:layout_width="150dp"
+                android:layout_height="70dp"
+                android:textAllCaps="false"
+                android:text="@string/answer_4_button"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp">
+            <TextView
+                android:id="@+id/level_info"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="here will be the level"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+
+-->
