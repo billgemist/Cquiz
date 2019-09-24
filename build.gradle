@@ -2,7 +2,7 @@
 
 buildscript {
     repositories {
-        google()
+        //google()
         //jcenter() //Sep 24, 2019 (commented out)
     }
     dependencies {
