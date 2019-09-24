@@ -5,7 +5,7 @@ buildscript {
         // new plugin.
         jcenter()
         google()
-       
+
         buildscript {
             repositories {
                 google()
@@ -27,10 +27,5 @@ buildscript {
 
             }
         }
-
-        task clean(type: Delete) {
-            delete rootProject.buildDir
-        }
     }
 }
-        
