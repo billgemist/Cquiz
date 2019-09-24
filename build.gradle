@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 buildscript {
     repositories {
 
@@ -6,7 +5,7 @@ buildscript {
         // new plugin.
         jcenter()
         google()
-        === === =
+       
         buildscript {
             repositories {
                 google()
