@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+//<<<<<<< HEAD
 buildscript {
     repositories {
 
@@ -6,7 +6,7 @@ buildscript {
         // new plugin.
         jcenter()
         google()
-=======
+//=======
 buildscript {
     repositories {
         google()
@@ -40,7 +40,7 @@ buildscript {
     repositories {
         //google()
         jcenter() 
->>>>>>> 4b90a03e3cba987232e8f4b1247e04a396c7c24d
+//>>>>>>> 4b90a03e3cba987232e8f4b1247e04a396c7c24d
     }
 
     dependencies {
