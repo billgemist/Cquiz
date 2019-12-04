@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
 
     //private static String url_all_questions = "https://cquizdata.000webhostapp.com/getallquestions_v2.php"; //url to get all questions from mysql with php
 
-    private static String url_all_questions = "http://www.billgemist.com/getallquestions_v2.php"; //url to get all questions from mysql with php
+    private static String url_all_questions = "http://www.gemistos.com/getallquestions_v2.php"; //url to get all questions from mysql with php
 
     // JSON Node names
     private static final String TAG_SUCCESS = "success";
